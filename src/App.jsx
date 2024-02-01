@@ -1,11 +1,15 @@
-import Counter from "./components/Counter";
-import CounterWithUseRef from "./components/CounterWithUseRef";
+import Chat from "./components/Chat";
+import Dashboard from "./components/DeBouncedBtn";
+import LatestChat from "./components/LatestChat";
+import Toggle from "./components/Toggle";
 
 export default function App() {
   return (
     <>
-      <Counter />
-      <CounterWithUseRef />
+      {/* <Chat /> */}
+      {/* <Toggle /> */}
+      {/* <Dashboard /> debounced */}
+      <LatestChat/>
     </>
   );
 }
