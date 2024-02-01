@@ -1,9 +1,11 @@
 import Counter from "./components/Counter";
-import TimeSpan from "./components/TimeSpan";
+import CounterWithUseRef from "./components/CounterWithUseRef";
 
-export default function App(){
-    return (
-        // <TimeSpan/>
-        <Counter/>
-    );
+export default function App() {
+  return (
+    <>
+      <Counter />
+      <CounterWithUseRef />
+    </>
+  );
 }
